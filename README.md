@@ -1,6 +1,6 @@
 # Kaggle Digit Recognizer
 
-This repository contains a solution for the Kaggle "Digit Recognizer" competition, utilizing a Vision Transformer (ViT) model implemented in PyTorch.
+This repository contains a solution for the Kaggle "Digit Recognizer" competition (getting started), utilizing a Vision Transformer (ViT) model implemented in PyTorch.
 
 ## Vision Transformer (ViT)
 
@@ -56,7 +56,9 @@ The following hyperparameters were used for training the Vision Transformer mode
 | `LR`              | 4e-4    | Learning rate                             |
 | `EPOCHS`          | 500     | Number of training epochs                 |
 
-## Training
+## Result
+
+### Training
 
 The training process is documented in the `vit.ipynb` notebook. It includes:
 
@@ -69,3 +71,10 @@ The training process is documented in the `vit.ipynb` notebook. It includes:
 Here is a plot of the training and validation loss:
 
 ![Training and Validation Loss](media/0_4e-4_0.3.png)
+
+### Public Score & Leaderboard
+
+#### Public Score: 0.96150
+#### Leaderboard (Aug 2025): 969
+
+![Kaggle Leaderboard](media/kaggle_result.png)
